@@ -37,12 +37,6 @@ p{
     width: 30px;
     margin-left: 13px;
 }
-.tornpaper-texture{
-    width: 100%;
-    display: inline-block;
-    position: absolute;
-    bottom: -6px;
-}
 .firpic{
     position: relative;
 }
