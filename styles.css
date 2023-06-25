@@ -1,0 +1,178 @@
+/* Color Codes */
+h5{background-color: #004968
+    #008294
+    #00bddb
+    #00ffc9;
+}
+  /* Starts coding */
+body{
+    margin: 0;
+    text-align: center;
+    background-color: aliceblue;
+    color: aliceblue;
+    font-family: 'montserrat', sans-serif;
+}
+.student-girl{
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+}
+.navbar{
+    background-color: aliceblue;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #004968;
+    font-weight: 600;
+}
+p{
+    width: 80%;
+    margin: auto;
+    color: #004968;
+}
+.colored-logo{
+    width: 30px;
+    margin-left: 13px;
+}
+.tornpaper-texture{
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: -10px;
+}
+.firpic{
+    position: relative;
+}
+.aboutus{
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 30px 0 30px;
+    position: relative;
+    margin-bottom: 85px;
+    top: 10px;
+}
+.ourvision{
+margin-top: 100px;
+
+}
+
+.block-1{
+    margin-top: 20px;
+    background-color: #004968;
+    height: 13px;
+    width: 15%;
+    position: absolute;
+    left: 0;
+    top: 35%;
+}
+.block-2{
+    margin-top: 20px;
+    background-color: #004968;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.block-3{
+    margin-top: 20px;
+    background-color: #004968;
+    height: 13px;
+    width: 15%;
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+.block-4{
+    margin-top: 20px;
+    background-color: #004968;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    right: 20%;
+    top: 35%;
+}
+.block-5{
+    margin-top: 20px;
+    background-color: #004968;
+    height: 13px;
+    width: 15%;
+    position: absolute;
+    left: 0;
+    top: 98%;
+}
+.block-6{
+    margin-top: 20px;
+    background-color: #004968;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    left: 20%;
+    top: 98%;
+}
+.block-7{
+    margin-top: 20px;
+    background-color: #004968;
+    height: 13px;
+    width: 15%;
+    position: absolute;
+    right: 0;
+    top: 98%;
+}
+.block-8{
+    margin-top: 20px;
+    background-color: #004968;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    right: 20%;
+    top: 98%;
+}
+.carousel-pic{
+    width: 100%;
+}
+
+.carousel{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 55%;
+}
+
+.carousel-indicators{
+    display: none;
+}
+hr{
+    margin: auto;
+    margin-top: 28px;
+    width: 5%;
+    border-style: dotted none none;
+    border-width: 6px;
+    border-color: #008294;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.empty-div{
+    width: 100%;
+    height: 217px;
+}
+
+.cta{
+  position: relative;
+}
+.students-sitting{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin: 0;
+}
