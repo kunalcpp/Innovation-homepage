@@ -11,11 +11,24 @@ body{
     background-color: aliceblue;
     color: aliceblue;
     font-family: 'montserrat', sans-serif;
+    color: #004968;
 }
 .student-girl{
     margin: 0;
     width: 100%;
-    display: inline-block;
+}
+
+/* navbar */
+
+.nav-link{
+    font-family: 'montserrat', sans-serif;
+    color: #004968;
+    margin-top: 6px;
+ 
+}
+.colored-logo{
+    width: 30px;
+    margin-left: 13px;
 }
 .navbar{
     background-color: aliceblue;
@@ -28,24 +41,19 @@ h1{
     color: #004968;
     font-weight: 600;
 }
+
 p{
     width: 80%;
     margin: auto;
     color: #004968;
 }
-.colored-logo{
-    width: 30px;
-    margin-left: 13px;
-}
-.firpic{
-    position: relative;
-}
+
 .aboutus{
     background-color: #f0f8ff;
     margin: 0;
     padding: 30px 0 30px;
     position: relative;
-    margin-bottom: 85px;
+    margin-bottom: 55px;
     top: 10px;
 }
 .ourvision{
@@ -59,8 +67,8 @@ margin-top: 100px;
     height: 13px;
     width: 15%;
     position: absolute;
-    left: 0;
-    top: 35%;
+    left: 0%;
+    top: 29%;
 }
 .block-2{
     margin-top: 20px;
@@ -69,7 +77,7 @@ margin-top: 100px;
     width: 13px;
     position: absolute;
     left: 20%;
-    top: 35%;
+    top: 29%;
 }
 .block-3{
     margin-top: 20px;
@@ -77,8 +85,8 @@ margin-top: 100px;
     height: 13px;
     width: 15%;
     position: absolute;
-    right: 0;
-    top: 35%;
+    right: 0%;
+    top: 29%;
 }
 .block-4{
     margin-top: 20px;
@@ -87,43 +95,93 @@ margin-top: 100px;
     width: 13px;
     position: absolute;
     right: 20%;
-    top: 35%;
+    top: 29%;
 }
-.block-5{
-    margin-top: 20px;
+.courses-button{
+    margin-top: 50px;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: #008294;
+    border: solid 2px #004968;
+    border-radius: 10px;
+    padding: 12px 10%;
+}
+.courses-button:hover{
     background-color: #004968;
-    height: 13px;
-    width: 15%;
+    color: aliceblue;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+    padding: 12px 10%;
+}
+
+/* Perks icons */
+
+.row{  
+    margin-top: 80px;
+    margin-right: 0;
+}
+.for-blocks{
+    position: relative;   
+}
+.long-block1{
     position: absolute;
     left: 0;
-    top: 98%;
+width: 1.5%;
+height: 100%;
+background-color: #004968;
 }
-.block-6{
-    margin-top: 20px;
-    background-color: #004968;
-    height: 13px;
-    width: 13px;
-    position: absolute;
-    left: 20%;
-    top: 98%;
-}
-.block-7{
-    margin-top: 20px;
-    background-color: #004968;
-    height: 13px;
-    width: 15%;
+.long-block2{
     position: absolute;
     right: 0;
-    top: 98%;
+width: 1.5%;
+height: 100%;
+background-color: #004968;
 }
-.block-8{
-    margin-top: 20px;
-    background-color: #004968;
-    height: 13px;
-    width: 13px;
-    position: absolute;
-    right: 20%;
-    top: 98%;
+.perk-icons{
+    width: 60px;
+    margin: 0%;
+}
+
+h2{
+    padding-top: 30px;
+    font-size: 17px;
+    margin-bottom: 22px;
+    color: #004968;
+    font-weight: 600;
+}
+#resouces-icon{
+    width: 70px;
+
+}
+#perspective-icon{
+    width: 93px;
+    margin-bottom: 10px;
+}
+#Certificate-icon{
+    margin-bottom: 10px;
+}
+#network-icon{
+    width: 70px;
+    margin-bottom: 12px;
+}
+#growth-icon{
+    width: 60px;
+    margin-bottom: 9px;
+}
+#opportunities-icon{
+    width: 90px;
+}
+
+/* carousel  */
+
+.carousel-border{
+    background-color: aliceblue;
+    border: #004968 solid 3px;
+    scale: 108%;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    
 }
 .carousel-pic{
     width: 100%;
@@ -131,13 +189,30 @@ margin-top: 100px;
 
 .carousel{
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 55%;
+    margin-top: 70px;
+    width: 400px;
 }
 
 .carousel-indicators{
     display: none;
+}
+
+.enroll-button{
+    margin-top: 55px;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: #008294;
+    border: solid 2px #004968;
+    border-radius: 10px;
+    padding: 12px 10%;
+}
+.enroll-button:hover{
+    background-color: #004968;
+    color: aliceblue;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+    padding: 12px 10%;
+    
 }
 hr{
     margin: auto;
@@ -148,25 +223,58 @@ hr{
     border-color: #008294;
     margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-.empty-div{
-    width: 100%;
-    height: 217px;
+#behance_logo{
+    margin-top: 20px;
+    width: 33px;
+    margin: 2em;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
-
+#linkedin_logo{
+    margin-top: 20px;
+    width: 28px;
+    margin: 2em;
+    margin-top: 0px;
+    margin-bottom: 24px;
+   
+}
+#discord_logo{
+    margin-top: 20px;
+    width: 35px;
+    margin: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#github_logo{
+    margin-top: 20px;
+    width: 30px;
+    margin: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+h5{
+    margin-bottom: 24px;
+}
 .cta{
-  position: relative;
+    background-color: aliceblue;
+    padding-top: 30px;
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 8px;
+    filter: drop-shadow(0 0.2rem 0.49rem #004968);
 }
-.students-sitting{
-    width: 100%;
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    margin: 0;
+.final-div{
+    position: relative;
+    background-color: #004968;
+    height: 40px;
 }
+.supportus{
+    position: relative;
+    top: 10px;
+    color: aliceblue;
+    margin: auto;
+    font-size: smaller;
+
+}
+
+
