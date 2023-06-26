@@ -98,10 +98,9 @@ margin-top: 100px;
     top: 29%;
 }
 .courses-button{
-        background-color: #004968;
+    background-color: #004968;
     color: aliceblue;
     border: solid 2px aliceblue;
-    border-radius: 10px;
     margin-top: 50px;
     font-weight: bold;
     border-radius: 10px;
@@ -170,7 +169,7 @@ h2{
     margin-bottom: 9px;
 }
 #opportunities-icon{
-    width: 85px;
+    width: 90px;
 }
 
 /* carousel  */
@@ -198,17 +197,16 @@ h2{
     display: none;
 }
 
-.enroll-button:hover{
-    margin-top: 55px;
-    font-weight: bold;
-
-        background-color: #004968;
+.enroll-button{
+    background-color: #004968;
     color: aliceblue;
     border: solid 2px aliceblue;
+    margin-top: 55px;
+    font-weight: bold;
     border-radius: 10px;
     padding: 12px 10%;
 }
-.enroll-button{    
+.enroll-button:hover{
     background-color: aliceblue;
     color: #008294;
     border: solid 2px #004968;
