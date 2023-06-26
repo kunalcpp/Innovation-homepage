@@ -97,19 +97,20 @@ margin-top: 100px;
     right: 20%;
     top: 29%;
 }
-.courses-button:hover{
+.courses-button{
+        background-color: #004968;
+    color: aliceblue;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
     margin-top: 50px;
     font-weight: bold;
-    background-color: aliceblue;
-    color: #008294;
-    border: solid 2px #004968;
     border-radius: 10px;
     padding: 12px 10%;
 }
-.courses-button{
-    background-color: #004968;
-    color: aliceblue;
-    border: solid 2px aliceblue;
+.courses-button:hover{
+    background-color: aliceblue;
+    color: #008294;
+    border: solid 2px #004968;
     border-radius: 10px;
     padding: 12px 10%;
 }
@@ -200,16 +201,17 @@ h2{
 .enroll-button:hover{
     margin-top: 55px;
     font-weight: bold;
-    background-color: aliceblue;
-    color: #008294;
-    border: solid 2px #004968;
+
+        background-color: #004968;
+    color: aliceblue;
+    border: solid 2px aliceblue;
     border-radius: 10px;
     padding: 12px 10%;
 }
-.enroll-button{
-    background-color: #004968;
-    color: aliceblue;
-    border: solid 2px aliceblue;
+.enroll-button{    
+    background-color: aliceblue;
+    color: #008294;
+    border: solid 2px #004968;
     border-radius: 10px;
     padding: 12px 10%;
     
